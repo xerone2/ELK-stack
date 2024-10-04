@@ -40,6 +40,8 @@ A high-level diagrammatic view of the technical stack has been created, showcasi
   - Fleet agents installed on endpoints (Linux and Windows servers).
 
 ---
+### Fleet agents
+![Fleet agents](https://github.com/xerone2/ELK-stack/blob/main/Fleet%20agents.png)
 
 **Note: ElasticSearch and Fleet servers are kept in a seperate VPC(Virtual Private CLoud) for additional layer of security.**
 
@@ -71,7 +73,13 @@ A high-level diagrammatic view of the technical stack has been created, showcasi
   - **Failed SSH authentication attempts** from the Linux server.
   - **Failed RDP authentication attempts** from the Windows server.
 
+
+![Rules](https://github.com/xerone2/ELK-stack/blob/main/Installed%20rules.png)
+
 - **Alerts** trigger on detection of unauthorized access, providing real-time insights into potential security incidents.
+
+
+![Alerts](https://github.com/xerone2/ELK-stack/blob/main/Alerts.png)
 
 ---
 
@@ -81,6 +89,12 @@ A high-level diagrammatic view of the technical stack has been created, showcasi
   - Visualizing failed SSH and RDP login attempts.
   - Mapping the geographic locations of unauthorized access attempts globally.
   - Investigating patterns of attacks or repeated attempts.
+
+---
+
+ ### Kibana--Map (Geolocating unauthoriszed attempts)
+ 
+ ![Event code 4625](https://github.com/xerone2/ELK-stack/blob/main/kibana%20(Global%20authentication%20map).png)
 
 ---
 
